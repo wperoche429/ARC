@@ -17,6 +17,7 @@
 		229989992135DFF200F4B09F /* ViewControllerB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229989982135DFF200F4B09F /* ViewControllerB.swift */; };
 		2299899B2135DFFD00F4B09F /* ViewControllerC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2299899A2135DFFD00F4B09F /* ViewControllerC.swift */; };
 		2299899D2135E83300F4B09F /* ViewControllerD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2299899C2135E83300F4B09F /* ViewControllerD.swift */; };
+		2299899F2135EA6C00F4B09F /* ViewControllerE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2299899E2135EA6C00F4B09F /* ViewControllerE.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		229989982135DFF200F4B09F /* ViewControllerB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerB.swift; sourceTree = "<group>"; };
 		2299899A2135DFFD00F4B09F /* ViewControllerC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerC.swift; sourceTree = "<group>"; };
 		2299899C2135E83300F4B09F /* ViewControllerD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerD.swift; sourceTree = "<group>"; };
+		2299899E2135EA6C00F4B09F /* ViewControllerE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerE.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				229989982135DFF200F4B09F /* ViewControllerB.swift */,
 				2299899A2135DFFD00F4B09F /* ViewControllerC.swift */,
 				2299899C2135E83300F4B09F /* ViewControllerD.swift */,
+				2299899E2135EA6C00F4B09F /* ViewControllerE.swift */,
 				229989862135DED000F4B09F /* Main.storyboard */,
 				229989892135DED100F4B09F /* Assets.xcassets */,
 				2299898B2135DED100F4B09F /* LaunchScreen.storyboard */,
@@ -154,6 +157,7 @@
 				229989972135DFE900F4B09F /* ViewControllerA.swift in Sources */,
 				2299899D2135E83300F4B09F /* ViewControllerD.swift in Sources */,
 				229989852135DED000F4B09F /* ViewController.swift in Sources */,
+				2299899F2135EA6C00F4B09F /* ViewControllerE.swift in Sources */,
 				229989992135DFF200F4B09F /* ViewControllerB.swift in Sources */,
 				229989832135DED000F4B09F /* AppDelegate.swift in Sources */,
 				229989952135DFA200F4B09F /* BaseViewController.swift in Sources */,
