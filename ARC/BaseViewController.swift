@@ -6,30 +6,27 @@
 //  Copyright © 2018 William Peroche. All rights reserved.
 //
 
+
 import UIKit
 
 class BaseViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    var block1 : (() -> ())?
+    var block2 : (() -> ())?
+    
+    var message = "Hello"
+    
+    deinit {
+        print("deinit of \(NSStringFromClass(type(of: self)))\n")
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        print("ViewDidLoad \(NSStringFromClass(type(of: self)))")
+        self.title = NSStringFromClass(type(of: self))
     }
-    */
 
+    func sayHello() {
+        print(self.message)
+    }
 }

@@ -9,27 +9,26 @@
 import UIKit
 
 class ViewControllerB: BaseViewController {
-
+    
+    @IBOutlet var messageLabel: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.block1 = { [weak self] in
+            guard let strongSelf = self else {
+                return
+            }
 
-        // Do any additional setup after loading the view.
+            strongSelf.sayHello()
+            strongSelf.block2 = {
+                strongSelf.sayHello()
+            }
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        self.messageLabel.text = "Retain count of \(NSStringFromClass(type(of: self))) = \(CFGetRetainCount(self))"
+
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
