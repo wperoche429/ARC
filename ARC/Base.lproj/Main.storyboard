@@ -58,15 +58,40 @@
                                     <segue destination="cXv-AL-Wxi" kind="show" id="mnX-cz-yeq"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9pB-e3-G9w" customClass="DottedLineView" customModule="ARC" customModuleProvider="target">
+                                <rect key="frame" x="20" y="84" width="335" height="2"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="giw-w8-Jl0"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LbN-1f-5Km">
+                                <rect key="frame" x="10" y="106" width="355" height="5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="5" id="dSl-5M-N5b"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9pB-e3-G9w" secondAttribute="trailing" constant="20" id="3O2-xv-4z4"/>
+                            <constraint firstItem="9pB-e3-G9w" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="LJc-p6-KmC"/>
+                            <constraint firstItem="LbN-1f-5Km" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="Xcs-Y4-AbV"/>
+                            <constraint firstItem="LbN-1f-5Km" firstAttribute="top" secondItem="9pB-e3-G9w" secondAttribute="bottom" constant="20" id="hdO-df-XTb"/>
+                            <constraint firstItem="9pB-e3-G9w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="yC3-X9-ZHR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LbN-1f-5Km" secondAttribute="trailing" constant="10" id="yXF-VH-bde"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="akz-MY-ywy"/>
+                    <connections>
+                        <outlet property="dotView" destination="9pB-e3-G9w" id="jEX-v2-9jG"/>
+                        <outlet property="imageView" destination="LbN-1f-5Km" id="P2Y-1Z-1TK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="921" y="51"/>
+            <point key="canvasLocation" x="920.79999999999995" y="50.824587706146929"/>
         </scene>
         <!--View ControllerE-->
         <scene sceneID="3bJ-u1-0DB">

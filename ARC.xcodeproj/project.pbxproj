@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224E76492149F12000D663B9 /* DottedLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224E76482149F11F00D663B9 /* DottedLineView.swift */; };
 		229989832135DED000F4B09F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229989822135DED000F4B09F /* AppDelegate.swift */; };
 		229989852135DED000F4B09F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229989842135DED000F4B09F /* ViewController.swift */; };
 		229989882135DED000F4B09F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229989862135DED000F4B09F /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		224E76482149F11F00D663B9 /* DottedLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DottedLineView.swift; sourceTree = "<group>"; };
 		2299897F2135DED000F4B09F /* ARC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		229989822135DED000F4B09F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		229989842135DED000F4B09F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +76,7 @@
 				2299899A2135DFFD00F4B09F /* ViewControllerC.swift */,
 				2299899C2135E83300F4B09F /* ViewControllerD.swift */,
 				2299899E2135EA6C00F4B09F /* ViewControllerE.swift */,
+				224E76482149F11F00D663B9 /* DottedLineView.swift */,
 				229989862135DED000F4B09F /* Main.storyboard */,
 				229989892135DED100F4B09F /* Assets.xcassets */,
 				2299898B2135DED100F4B09F /* LaunchScreen.storyboard */,
@@ -159,6 +162,7 @@
 				229989852135DED000F4B09F /* ViewController.swift in Sources */,
 				2299899F2135EA6C00F4B09F /* ViewControllerE.swift in Sources */,
 				229989992135DFF200F4B09F /* ViewControllerB.swift in Sources */,
+				224E76492149F12000D663B9 /* DottedLineView.swift in Sources */,
 				229989832135DED000F4B09F /* AppDelegate.swift in Sources */,
 				229989952135DFA200F4B09F /* BaseViewController.swift in Sources */,
 			);
